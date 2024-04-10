@@ -1,0 +1,54 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "description": "issue's digital object identifier"
+    },
+    {
+      "name": "title_id",
+      "type": "string",
+      "description": "parent title's digital object identifier"
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "description": "parent title's name"
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "description": "usually contains additional publication information, eg 'Issue 66 (2019)'"
+    },
+    {
+      "name": "date",
+      "type": "integer",
+      "description": "year of publication"
+    },
+    {
+      "name": "url",
+      "type": "string",
+      "description": "link to digitised viewer"
+    },
+    {
+      "name": "ebook_type",
+      "type": "string",
+      "description": "publication mimetype, eg: 'application/pdf', or 'application/epub+zip'"
+    },
+    {
+      "name": "access_conditions",
+      "type": "string",
+      "description": "indicates level of online access, eg 'Unrestricted', 'View only', or 'Onsite only'"
+    },
+    {
+      "name": "copyright_policy",
+      "type": "string",
+      "description": "copyright status, eg 'In copyright'"
+    },
+    {
+      "name": "download_link",
+      "type": "string",
+      "description": "link to download this issue from Trove"
+    }
+  ]
+}
