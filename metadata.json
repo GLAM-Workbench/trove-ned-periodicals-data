@@ -1,7 +1,7 @@
 {
     "title": "GLAM Workbench Data Explorer",
     "description": "Explore Trove's collection of periodicals contributed through the National edeposit scheme!",
-    "source": "trove-periodicals-data",
+    "source": "trove-ned-periodicals-data",
     "source_url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data",
     "databases": {
         "periodicals": {
