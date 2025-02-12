@@ -9,7 +9,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2024-04-10",
+            "datePublished": "2025-02-12",
             "description": "This dataset contains details of periodical titles and issues submitted to the Trove through the NLA's National edeposit scheme. It includes CSV-formatted lists of titles and issues, and an SQLite database created for use with Datasette-Lite.",
             "distribution": {
                 "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/archive/refs/heads/main.zip"
@@ -102,12 +102,12 @@
             "conformsTo": {
                 "@id": "ned-periodicals-schema.json"
             },
-            "contentSize": 4899380,
-            "dateModified": "2024-04-10",
+            "contentSize": 5188492,
+            "dateModified": "2025-02-12",
             "encodingFormat": "text/csv",
             "name": "ned-periodicals.csv",
             "sdDatePublished": "2024-04-10",
-            "size": 7974,
+            "size": 8590,
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.csv"
         },
         {
@@ -119,12 +119,12 @@
             "conformsTo": {
                 "@id": "ned-periodical-issues-schema.json"
             },
-            "contentSize": 40111645,
-            "dateModified": "2024-04-10",
+            "contentSize": 45383982,
+            "dateModified": "2025-02-12",
             "encodingFormat": "text/csv",
             "name": "ned-periodical-issues.csv",
             "sdDatePublished": "2024-04-10",
-            "size": 156153,
+            "size": 176949,
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodical-issues.csv"
         },
         {
@@ -133,12 +133,36 @@
                 "File",
                 "Dataset"
             ],
-            "contentSize": 57741312,
-            "dateModified": "2024-04-10",
+            "contentSize": 64778240,
+            "dateModified": "2025-02-12",
             "description": "This SQLite database contains data relating to digitised periodical titles and issues from Trove. It was created for use with Datasette-Lite. There is a foreign key link between the issues and the titles, making it easy to find the issues from any title. Some extra columns have been added to include thumbnails and download links.",
             "name": "ned-periodicals.db",
             "sdDatePublished": "2024-04-10",
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.db"
+        },
+        {
+            "@id": "ned-periodicals-schema.json",
+            "@type": [
+                "File"
+            ],
+            "conformsTo": {
+                "@id": "https://specs.frictionlessdata.io/table-schema/"
+            },
+            "encodingFormat": "application/json",
+            "name": "Frictionless Table Schema for ned-periodicals.csv dataset",
+            "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals-schema.json"
+        },
+        {
+            "@id": "ned-periodical-issues-schema.json",
+            "@type": [
+                "File"
+            ],
+            "conformsTo": {
+                "@id": "https://specs.frictionlessdata.io/table-schema/"
+            },
+            "encodingFormat": "application/json",
+            "name": "Frictionless Table Schema for ned-periodical-issues.csv dataset",
+            "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodical-issues-schema.json"
         },
         {
             "@id": "https://orcid.org/0000-0001-7956-4498",
@@ -210,7 +234,7 @@
             "actionStatus": {
                 "@id": "http://schema.org/CompletedActionStatus"
             },
-            "endDate": "2024-04-10",
+            "endDate": "2025-02-12",
             "instrument": {
                 "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/master/harvest-ned-periodicals.ipynb"
             },
@@ -241,30 +265,6 @@
             "@type": "CreativeWork",
             "name": "Explore in Datasette",
             "url": "https://glam-workbench.net/datasette-lite/?url=https://github.com/GLAM-Workbench/trove-ned-periodicals-data/blob/main/ned-periodicals.db&install=datasette-json-html&install=datasette-template-sql&metadata=https://github.com/GLAM-Workbench/trove-ned-periodicals-data/blob/main/metadata.json"
-        },
-        {
-            "@id": "ned-periodicals-schema.json",
-            "@type": [
-                "File"
-            ],
-            "conformsTo": {
-                "@id": "https://specs.frictionlessdata.io/table-schema/"
-            },
-            "encodingFormat": "application/json",
-            "name": "Frictionless Table Schema for ned-periodicals.csv dataset",
-            "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals-schema.json"
-        },
-        {
-            "@id": "ned-periodical-issues-schema.json",
-            "@type": [
-                "File"
-            ],
-            "conformsTo": {
-                "@id": "https://specs.frictionlessdata.io/table-schema/"
-            },
-            "encodingFormat": "application/json",
-            "name": "Frictionless Table Schema for ned-periodical-issues.csv dataset",
-            "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodical-issues-schema.json"
         }
     ]
 }
