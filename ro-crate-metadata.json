@@ -9,7 +9,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2025-02-12",
+            "datePublished": "2025-02-16",
             "description": "This dataset contains details of periodical titles and issues submitted to the Trove through the NLA's National edeposit scheme. It includes CSV-formatted lists of titles and issues, and an SQLite database created for use with Datasette-Lite.",
             "distribution": {
                 "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/archive/refs/heads/main.zip"
@@ -102,12 +102,12 @@
             "conformsTo": {
                 "@id": "ned-periodicals-schema.json"
             },
-            "contentSize": 5188492,
-            "dateModified": "2025-02-12",
+            "contentSize": 5175025,
+            "dateModified": "2025-02-16",
             "encodingFormat": "text/csv",
             "name": "ned-periodicals.csv",
             "sdDatePublished": "2024-04-10",
-            "size": 8590,
+            "size": 8573,
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.csv"
         },
         {
@@ -119,12 +119,12 @@
             "conformsTo": {
                 "@id": "ned-periodical-issues-schema.json"
             },
-            "contentSize": 45383982,
-            "dateModified": "2025-02-12",
+            "contentSize": 45794377,
+            "dateModified": "2025-02-16",
             "encodingFormat": "text/csv",
             "name": "ned-periodical-issues.csv",
             "sdDatePublished": "2024-04-10",
-            "size": 176949,
+            "size": 179512,
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodical-issues.csv"
         },
         {
@@ -133,8 +133,8 @@
                 "File",
                 "Dataset"
             ],
-            "contentSize": 64778240,
-            "dateModified": "2025-02-12",
+            "contentSize": 65368064,
+            "dateModified": "2025-02-16",
             "description": "This SQLite database contains data relating to digitised periodical titles and issues from Trove. It was created for use with Datasette-Lite. There is a foreign key link between the issues and the titles, making it easy to find the issues from any title. Some extra columns have been added to include thumbnails and download links.",
             "name": "ned-periodicals.db",
             "sdDatePublished": "2024-04-10",
@@ -234,7 +234,7 @@
             "actionStatus": {
                 "@id": "http://schema.org/CompletedActionStatus"
             },
-            "endDate": "2025-02-12",
+            "endDate": "2025-02-16",
             "instrument": {
                 "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/master/harvest-ned-periodicals.ipynb"
             },

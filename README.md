@@ -8,8 +8,8 @@ For more information and documentation see the [Details of periodicals submitted
 
 ## Dataset summary
 - [ned-periodicals.csv](https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.csv) (5.2 MB, text/csv)
-- [ned-periodical-issues.csv](https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodical-issues.csv) (45.4 MB, text/csv)
-- [ned-periodicals.db](https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.db) (64.8 MB, db)
+- [ned-periodical-issues.csv](https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodical-issues.csv) (45.8 MB, text/csv)
+- [ned-periodicals.db](https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.db) (65.4 MB, db)
 
 
 ## Dataset details
@@ -18,11 +18,11 @@ For more information and documentation see the [Details of periodicals submitted
 
 |                |                                                                                                                                                                                                                                                                                             |
 |:---------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| date harvested | 2025-02-12                                                                                                                                                                                                                                                                                  |
+| date harvested | 2025-02-16                                                                                                                                                                                                                                                                                  |
 | file size      | 5.2 MB                                                                                                                                                                                                                                                                                      |
 | format         | text/csv                                                                                                                                                                                                                                                                                    |
 | created by     | <a href='https://github.com/GLAM-Workbench/trove-journals/blob/master/harvest-ned-periodicals.ipynb'>Harvest details of periodicals submitted to Trove through the National edeposit scheme (NED)</a> ([documentation](https://glam-workbench.net/trove-journals/harvest-ned-periodicals/)) |
-| number of rows | 8590                                                                                                                                                                                                                                                                                        |
+| number of rows | 8573                                                                                                                                                                                                                                                                                        |
 
 #### Columns
 
@@ -51,11 +51,11 @@ For more information and documentation see the [Details of periodicals submitted
 
 |                |                                                                                                                                                                                                                                                                                             |
 |:---------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| date harvested | 2025-02-12                                                                                                                                                                                                                                                                                  |
-| file size      | 45.4 MB                                                                                                                                                                                                                                                                                     |
+| date harvested | 2025-02-16                                                                                                                                                                                                                                                                                  |
+| file size      | 45.8 MB                                                                                                                                                                                                                                                                                     |
 | format         | text/csv                                                                                                                                                                                                                                                                                    |
 | created by     | <a href='https://github.com/GLAM-Workbench/trove-journals/blob/master/harvest-ned-periodicals.ipynb'>Harvest details of periodicals submitted to Trove through the National edeposit scheme (NED)</a> ([documentation](https://glam-workbench.net/trove-journals/harvest-ned-periodicals/)) |
-| number of rows | 176949                                                                                                                                                                                                                                                                                      |
+| number of rows | 179512                                                                                                                                                                                                                                                                                      |
 
 #### Columns
 
@@ -76,8 +76,8 @@ For more information and documentation see the [Details of periodicals submitted
 
 |                |                                                                                                                                                                                                                                                                                                                                             |
 |:---------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| date harvested | 2025-02-12                                                                                                                                                                                                                                                                                                                                  |
-| file size      | 64.8 MB                                                                                                                                                                                                                                                                                                                                     |
+| date harvested | 2025-02-16                                                                                                                                                                                                                                                                                                                                  |
+| file size      | 65.4 MB                                                                                                                                                                                                                                                                                                                                     |
 | format         | db                                                                                                                                                                                                                                                                                                                                          |
 | created by     | <a href='https://github.com/GLAM-Workbench/trove-journals/blob/master/harvest-ned-periodicals.ipynb'>Harvest details of periodicals submitted to Trove through the National edeposit scheme (NED)</a> ([documentation](https://glam-workbench.net/trove-journals/harvest-ned-periodicals/))                                                 |
 | description    | This SQLite database contains data relating to digitised periodical titles and issues from Trove. It was created for use with Datasette-Lite. There is a foreign key link between the issues and the titles, making it easy to find the issues from any title. Some extra columns have been added to include thumbnails and download links. |
